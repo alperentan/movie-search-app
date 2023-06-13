@@ -1,12 +1,12 @@
 import React from "react";
 import { NavBar, Favorites } from "./components";
-import { Routes, Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<NavBar />} />
-      <Route path="/favorites" element={<Favorites />} />
-    </Routes>
+    <Switch>
+      <Route exact path="/" element={<NavBar />} />
+      <Route exact path="/favorites" element={<Favorites />} />
+    </Switch>
   );
 }
 
