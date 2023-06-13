@@ -4,8 +4,12 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<NavBar />} />
-      <Route path="/favorites" element={<Favorites />} />
+      <Route path="/">
+        <NavBar />
+      </Route>
+      <Route path="/favorites">
+        <Favorites />
+      </Route>
     </Routes>
   );
 }
