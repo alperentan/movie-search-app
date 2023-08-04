@@ -80,7 +80,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-      {/* Filmlerin gösterildiği body kısmı, url "/" ise sonuçları component'a aktar ve component üzerinden arama sonuçlarını göster*/}
+      {/* Filmlerin gösterildiği body kısmı, bulunan sayfa ana sayfaysa sonuçları component'a aktar ve component üzerinden arama sonuçlarını göster*/}
       {clicked === "fav" ? <></> : <SearchBody data={movies} />}
     </>
   );
