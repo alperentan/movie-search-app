@@ -1,12 +1,15 @@
 import React from "react";
-import { NavBar, Favorites } from "./components";
+import { NavBar, Favorites, SearchBody } from "./components";
 import { Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<NavBar />} />
-      <Route path="/favorites" element={<Favorites />} />
-    </Routes>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<SearchBody />} />
+        <Route path="/favorites" element={<Favorites />} />
+      </Routes>
+    </>
   );
 }
 

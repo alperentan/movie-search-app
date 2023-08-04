@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
-import NavBar from "./NavBar";
 import Popup from "./Popup";
 
 const Favorites = () => {
@@ -40,7 +39,6 @@ const Favorites = () => {
   };
   return (
     <>
-      <NavBar />
       <h1 className="text-center">Favorite Movies</h1>
       <div className="container">
         <div className="col-md-12">
