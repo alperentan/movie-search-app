@@ -28,9 +28,9 @@ const NavBar = () => {
       {/* Nav-bar*/}
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <NavLink to="/" className="navbar-brand">
             Movie Search
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
