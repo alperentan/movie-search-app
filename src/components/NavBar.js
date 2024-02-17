@@ -44,7 +44,7 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li className="nav-item">
                 <NavLink
                   to="/"
                   className="nav-link"
@@ -55,7 +55,7 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <NavLink
                   to="/favorites"
                   className="nav-link"

@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router>
+  <HashRouter>
     <App />
-  </Router>
+  </HashRouter>
 );
